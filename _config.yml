@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Felix Kao"
 title_separator          : "-"
-name                     : &name "Felix (Sheng-Chun) Kao"
+name                     : &name "Felix Kao (Sheng-Chun Kao)"
 description              : &description "Machine Learning Research Engineer"
 url                      : https://felix0901.github.io/felix.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
