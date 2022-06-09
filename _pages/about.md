@@ -8,10 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-## Felix (Sheng-Chun) Kao
-<img src="../images/photo.jpg" alt="photo" width="200"/>
-
-
 ## Research Interest
 ### Machine Learning
 ML-based automation, RLs, GA-based optimization, Transformer, Efficient attention for long sequence, Pruning, Quantization, Neural architecture search
