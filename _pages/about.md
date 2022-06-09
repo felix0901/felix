@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+### Felix (Sheng-Chun) Kao
 
 ## Research Interest
 ### Machine Learning
