@@ -4,8 +4,11 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+{% if author.googlescholar %}
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
 
-1. S.-C. Kao, H Kwon, M Pellauer, A Parashar, T Krishna,"A Formalism of DNN Accelerator Flexibility", ACM SIGMETRICS/Performance conference (SIGMETRICS), Jun 2022
+1. S.-C. Kao, H Kwon, M Pellauer, A Parashar, T Krishna,"A Formalism of DNN Accelerator Flexibility", ACM SIGMETRICS/Performance conference (SIGMETRICS), Jun 2022, [paper](( https://arxiv.org/abs/2201.11220))
 2. S.-C. Kao, T Krishna, "MAGMA: An Optimization Framework for Mapping Multiple DNNs on Multiple Accelerator Cores", HPCA, 2022, [paper](https://arxiv.org/abs/2104.13997)
 3. S.-C. Kao, M Pellauer, A Parashar, T Krishna, "DiGamma: Domain-aware Genetic Algorithm for Mapping-HW Co-optimization for DNN Accelerators", Design, Automation and Test in Europe Conference (DATE), March 2022, [paper](https://arxiv.org/abs/2201.11220)
 4. S.-C. Kao, X. Huang, T Krishna, “DNNFuser: Generative Pre-Trained Transformer as a Generalized Mapper for Layer Fusion in DNN Accelerators ”, arXiv, Jan 2022, [paper](https://arxiv.org/abs/2201.11218)
