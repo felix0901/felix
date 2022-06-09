@@ -8,43 +8,68 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+## Skills
+#### Proficient: Python, Pytorch, JAX, GCP, Cloud TPU, Verilog
+#### Experienced: Tensorflow, C/C++, Matlab
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Research Interest and Experience
+#### [ML] ML-based automation, RLs, GA-based optimization, Transformer, Efficient attention for long sequence, Pruning, Quantization, Neural architecture search
+#### [Accelerator] DNN accelerator, DNN Mapping/Dataflow, Algorithm-HW co-design
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+##  Projects
+#### DNN Accelerator Design Space Exploration (DSE), GaTech, GA
+•	Framed HW DSE into an RL problem and developed a REINFORCE-based algorithm
+•	The proposed method outperforms 3 widely used optimization methods (SA, GA, BO) and 6 SOTA RLs
+•	Main host of a popular open-sourced DNN accelerator cost model, [MAESTRO](http://maestro.ece.gatech.edu/), and a HW DSE framework, [ConfuciuX](https://github.com/maestro-project/confuciux)
+#### DNN Dataflow and Schedule Optimization, GaTech, GA
+•	The proposed genetic algorithm (GA)-based DNN dataflow mapper outperforms other optimizers by 10x-100x
+•	Developed and hosted an open-sourced DNN dataflow mapper ([GAMMA](https://github.com/maestro-project/gamma)) supporting two most popular open-sourced DNN accelerator cost models MAESTRO and Timeloop
+•	Developed a scheduler for multi-tenant DNN workload for multi-core accelerator, MAGMA
+•	Developed a generalizable Decision-Transformer-based DNN mapper, DNNFuser
+#### Efficient Attention and Transformers, GaTech, GA
+•	Model pruning and efficient attention techniques for training large BERT model for long sequence tasks
+•	Developed new dataflow tackling the quadratic memory bottleneck of attention layers
+#### SW/HW Co-design for DNN Accelerator and Machine Learnings, GaTech, GA
+•	Developed an optimized neural-evolution platform with algorithm-HW co-design approach and implemented on FPGA board (PYNQ)
+•	Developed a GAN-based HW-aware Neural Architecture Search technique
+•	Developed three RL-based methods optimizing Network-on-Chip performance
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Work Experiences
+### Intern, Google, CA 05/21' - 08/21'
+•	Research project on speed quality trade-off of efficient Transformer model
+### Intern, Corporation Technology, Siemens, NJ										   05/19’ – 07/19’
+•	Developed Pytorch DNN, RNN quantization module, for fast evaluation of any quantized DNN models
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Publications
+1. S.-C. Kao, H Kwon, M Pellauer, A Parashar, T Krishna,"A Formalism of DNN Accelerator Flexibility", ACM SIGMETRICS/Performance conference (SIGMETRICS), Jun 2022
+2. S.-C. Kao, T Krishna, "MAGMA: An Optimization Framework for Mapping Multiple DNNs on Multiple Accelerator Cores", HPCA, 2022, [paper](https://arxiv.org/abs/2104.13997)
+3. S.-C. Kao, M Pellauer, A Parashar, T Krishna, "DiGamma: Domain-aware Genetic Algorithm for Mapping-HW Co-optimization for DNN Accelerators", Design, Automation and Test in Europe Conference (DATE), March 2022, [paper](https://arxiv.org/abs/2201.11220)
+4. S.-C. Kao, X. Huang, T Krishna, “DNNFuser: Generative Pre-Trained Transformer as a Generalized Mapper for Layer Fusion in DNN Accelerators ”, arXiv, Jan 2022, [paper](https://arxiv.org/abs/2201.11218)
+5. S.-C. Kao, S. Subramanian, G. Agrawal, T Krishna, "FLAT: An Optimized Dataflow for Mitigating Attention Performance Bottlenecks", arXiv, July 2021, [paper](https://arxiv.org/abs/2107.06419)
+6. S.-C. Kao, T Krishna, "E3: A HW/SW Co-design Neuroevolution Platform for Autonomous Learning in Edge Device", IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS), 2021, [paper](https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/c/332/files/2021/04/e3-inax_ispass2021.pdf)
+7. S.-C. Kao, T Krishna, “GAMMA: Automating the HW Mapping of DNN Models on Accelerators via Genetic Algorithm”, IEEE/ACM International Conference On Computer Aided Design (ICCAD), 2020, [paper](https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/c/332/files/2020/08/gamma_iccad2020.pdf), [code](https://github.com/maestro-project/gamma), [video](https://www.youtube.com/watch?v=gfBFRBbcA10)
+8. S.-C. Kao, G Jeong, T Krishna, “ConfuciuX: Autonomous Hardware Resource Assignment for DNN Accelerators using Reinforcement Learning”, IEEE/ACM International Symposium on Microarchitecture (MICRO), 2020, [paper](https://arxiv.org/pdf/2009.02010.pdf), [code](https://github.com/maestro-project/confuciux), [video](https://www.youtube.com/watch?v=qHuO_38CdWQ)
+9. S.-C. Kao, A. Ramamurthy, R. Williams, T Krishna, “Conditional Neural Architecture Search”, Resource-Constrained Machine Learning (ReCoML'20), March 2020, [paper](https://arxiv.org/abs/2006.03969)
+10. S.-C. Kao, A. Ramamurthy, T Krishna, "Generative Design of Hardware-aware DNNs", arXiv, 2020, [paper](https://arxiv.org/abs/2006.03968)
+11. S.-C. Kao, C.-H. Yang, P.-Y. Chen, X. Ma, T. Krishna, “Reinforcement Learning based Interconnection Routing for Adaptive Traffic Optimization”, IEEE/ACM International Symposium on Networks-on-Chip (NOCS), Oct. 2019, [paper](https://arxiv.org/abs/1908.04484), [code](https://github.com/felix0901/interconnect-routing-gym)
+12. S.-C. Kao, D.-Y. Lee, A.-Y. Wu, “Bloom Filter And Implementation Method Thereof”, US Patent, 2020, [paper](https://patentscope.wipo.int/search/en/detail.jsf?docId=US277544115)
+13. S.-C. Kao, D.-Y. Lee, A.-Y. Wu, “Dynamically Updatable Ternary Segmented Aging Bloom Filter for OpenFlow-Compliant Low-Power Packet Processing”, IEEE/ACM Transaction On Networking, March 2018, [paper](https://ieeexplore.ieee.org/document/8322446)
+14. D.-Y. Lee, S.-C. Kao, A.Y. Wu, “Dynamically Updatable Mechanisms for OpenFlow-compliant Low-power Packet Processing”, Book chapter in “Advances in Networks: Security and Communications: Reviews”, 2019, [paper](https://www.amazon.com/Advances-Networks-Security-Communications-Reviews/dp/8409145103)
+15. C.-c. Wang, Y.-T. Chen, D.-Y. Lee, S.-C. Kao, A.-Y. Wu, “Profiling and SW/HW Co-design for Efficient SDN/OpenFlow Data Plane Realization”, IEEE International Conference on Electronics Information and Emergency Communication (ICIEC), July 2017, [paper](https://ieeexplore.ieee.org/abstract/document/8076600?casa_token=LmO1pAYgoQAAAAAA:2Kw-Utns6LMoQOgM6EwT1jafpZ28OF8ZvHmr106mFyuMjQINZrWYijo4n_popQZdllC6-B70AXY)
+16. E. Qin, G. Jeong, W. Won, S.-C. Kao, H. Kwon, S. Srinivasan, D. Das, G. Moon, S. Rajamanickam, T. Krishna, “Extending Sparse Tensor Accelerators to Support Multiple Compression Formats”, IEEE International Parallel & Distributed Processing Symposium (IPDPS), May 2021, [paper](https://arxiv.org/pdf/2103.10452.pdf)
+## Education
+### Georgia Institute of Technology, Atlanta GA, Ph.D. in Electrical and Computer Engineering in Dr. Tushar Krishna's group - [Synergy Lab](https://synergy.ece.gatech.edu/), GPA: 3.75/4.0
+**Majoring**: Computer Architecture & Software											   Expt: May 2022
+**Selected Coursework**: Machine Learning Hardware Accelerator, Advanced Computer Architecture, High Performance Parallel Computing, Advanced Machine Learning, Interconnection Network, Digital Image Processing
+### National Taiwan University, Taipei Taiwan, B.S., M.S. in Electronics Engineering, in Dr. An-Yeu Wu's group - [Access Lab](http://access.ee.ntu.edu.tw/), GPA: 3.95/4.0
+**Selected Coursework**: Convex Optimization, GPU Programming, Embedded System
+
+
+
+
