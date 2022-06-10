@@ -1,14 +1,19 @@
 ---
 permalink: /
-title: "About Me"
+title: "Sheng-Chun Kao"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-### Sheng-Chun Kao
-#### Felix Kao
+## About Me
+Hi, I am Sheng-Chun Kao. You can call me Felix.
+
+I am a software engineer from Waymo.
+
+My research interest spans across machine learning and computer architecture. I am actively working on ML, ML-assisted accelerator design, and Design Space Exploration.
+
 
 ## Research Interest
 ### Machine Learning
