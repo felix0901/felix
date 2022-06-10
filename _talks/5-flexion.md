@@ -21,4 +21,4 @@ The high efficiency of domain-specific hardware accelerators for machine learnin
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ZuQLgxssSnM/0.jpg)](https://www.youtube.com/watch?v=ZuQLgxssSnM)
 
 -----------
-### Paper: [DiGamma: Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators]( https://arxiv.org/abs/2201.11220)
+### Paper: [A Formalism of DNN Accelerator Flexibility]([https://arxiv.org/abs/2201.11220](https://arxiv.org/abs/2206.02987))
