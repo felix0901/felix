@@ -10,7 +10,7 @@ redirect_from:
 ## About Me
 Hi, I am Sheng-Chun Kao. You can call me Felix.
 
-I am a software engineer in Waymo.
+I am a software engineer in Waymo. I recevied my Ph.D. degree from ECE in Georgia Institute of Techonology in 2022.
 
 My research interest spans across machine learning and computer architecture. I am actively working on ML, ML-assisted accelerator design, and Design Space Exploration.
 
