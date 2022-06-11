@@ -1,7 +1,7 @@
 ---
 title: "MAGMA: An Optimization Framework for Mapping Multiple DNNs on Multiple Accelerator Cores"
 collection: talks
-type: "Projects"
+type: "Heterogenous, Scheduling, Multi-core, multi-tenancy, Genetic Algorithm, Performance modeling"
 permalink: /talks/3-magma
 venue: "HPCA'22"
 date: 2022-04-28
