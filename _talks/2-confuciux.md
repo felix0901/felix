@@ -1,7 +1,7 @@
 ---
 title: "ConfuciuX: Autonomous Hardware Resource Assignment for DNN Accelerators using Reinforcement Learning"
 collection: talks
-type: "RL, ML, Architecture, Baesian Opt., Genetic Algorithm, PyTorch"
+type: "RL, ML, Architecture, Baesian Opt., Genetic Algorithm, PyTorch, Tensorflow, Open-source release"
 permalink: /talks/2-confuciux
 venue: "MICRO'20"
 date: 2020-05-01
