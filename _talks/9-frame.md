@@ -1,7 +1,7 @@
 ---
 title: "FRAME: Fast Roofline Analytical Modeling and Estimation"
 collection: talks
-type: "Performance modeling, Architecture, System modeling, DNN Workloads, Roofline Analysis"
+type: "Performance modeling, Architecture, System modeling, DNN Workloads, Roofline Analysis, Open-source release"
 permalink: /talks/9-frame
 venue: "Open-source"
 date: 2021-08-20
