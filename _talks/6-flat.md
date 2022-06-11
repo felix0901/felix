@@ -1,7 +1,7 @@
 ---
 title: "FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks"
 collection: talks
-type: "Projects"
+type: "Transformer, Long-sequence Attention, NLP, Mapping/Dataflow, Performance modeling, Roofline Analysis"
 permalink: /talks/6-flat
 venue: "arXiv'21"
 date: 2021-09-02
