@@ -1,7 +1,7 @@
 ---
 title: "A Formalism of DNN Accelerator Flexibility"
 collection: talks
-type: "Projects"
+type: "Architecure, DNN Accelerator, Mapping/Dataflow, Design Space Exploration"
 permalink: /talks/5-flexion
 venue: "SIGMETRICS'22"
 date: 2022-06-06
