@@ -1,7 +1,7 @@
 ---
 title: "DiGamma: Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators"
 collection: talks
-type: "Projects"
+type: "Hardware-Mapping Co-optimization, Domain-specific optimziation, Genetic Algorithm"
 permalink: /talks/4-digamma
 venue: "DATE'22"
 date: 2022-01-02
