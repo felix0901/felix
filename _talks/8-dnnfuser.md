@@ -1,7 +1,7 @@
 ---
 title: "DNNFuser: Generative Pre-Trained Transformer as a Generalized Mapper for Layer Fusion in DNN Accelerators"
 collection: talks
-type: "Projects"
+type: "Transformers, RLs, GPT, Teacher-Student model, Knowledge Generalization, Performance Modeling, Pytorch"
 permalink: /talks/8-dnnfuser
 venue: "arXiv'22"
 date: 2022-01-02
