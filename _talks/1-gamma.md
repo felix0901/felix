@@ -1,7 +1,7 @@
 ---
 title: "GAMMA: Automating the HW Mapping of DNN Models on Accelerators via Genetic Algorithm"
 collection: talks
-type: "Projects"
+type: "Genetic Algorithm, Blackbox Optimization, ML, Mapping/Dataflow, Architecture, Design Space Exploration, Open-source release"
 permalink: /talks/1-gamma
 venue: "ICCAD'20"
 date: 2020-07-02
