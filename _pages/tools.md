@@ -20,6 +20,9 @@ author_profile: true
 ### Frame: Fast Roofline Analytical Modeling and Estimation
 [[Source code](https://github.com/maestro-project/frame)]
 
+### JAX-Pruning: A JAX implementation of structure and unstructure pruning
+[[Source code](https://github.com/felix0901/jax_pruning)]
+
 ------------
 
 ## Open-source Contribution
