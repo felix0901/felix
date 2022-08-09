@@ -31,5 +31,5 @@ DNN accelerator, DNN Mapping/Dataflow, Algorithm-HW co-design
 
 
 ## Programming Skills
-### Proficient: Python, Pytorch, JAX, GCP, Cloud TPU
-### Experienced: Tensorflow, C/C++, Matlab, Verilog
+### Proficient: Python, Pytorch, Tensorflow, JAX, C/C++, SQL, Google Cloud Platform, Cloud TPU
+### Experienced: Matlab, Verilog
